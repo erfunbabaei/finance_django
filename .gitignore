@@ -1,0 +1,92 @@
+# ==============================
+# Python & Django
+# ==============================
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+db.sqlite3
+*.mo
+
+# ==============================
+# Django specific
+# ==============================
+*.pot
+*.pyc
+*.pyo
+*.log
+*.pot
+local_settings.py
+media/
+staticfiles/
+tmp/
+
+# ==============================
+# PostgreSQL database & dumps
+# ==============================
+*.pgsql
+*.psql
+*.db
+*.sql
+*.tar
+*.backup
+
+# ==============================
+# Environment Variables
+# ==============================
+.env
+*.env
+.env.local
+.env.example
+
+# ==============================
+# IDE & Editor Files
+# ==============================
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ==============================
+# OS generated files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# PyCharm & JetBrains stuff
+# ==============================
+.idea/
+*.iml
+.shelf/
+workspace.xml
+dataSources.xml
+dataSources.local.xml
+
+# ==============================
+# Django migrations cache
+# ==============================
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# ==============================
+# Git & Logs
+# ==============================
+*.orig
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ==============================
+# Node.js frontend (optional)
+# ==============================
+node_modules/
+build/
+dist/
