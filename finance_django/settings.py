@@ -29,9 +29,9 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "localhost",
-    ""
+    # "https://sx877n10-5432.euw.devtunnels.ms/"
+    # "127.0.0.1",
+    # "localhost",
 ]
 
 
